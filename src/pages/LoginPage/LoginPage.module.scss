@@ -1,0 +1,40 @@
+@import "../../assets/themes/colors.scss";
+
+.container {
+  width: 30%;
+  margin: 30vh auto;
+  position: relative;
+
+  .title {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 40%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0 0 0 1rem;
+      color: $text;
+      font-weight: 700;
+    }
+  }
+
+  .envSelection {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: $text;
+
+    p {
+      align-self: center;
+      margin-right: 1rem;
+      font-size: 1.1rem;
+    }
+  }
+}

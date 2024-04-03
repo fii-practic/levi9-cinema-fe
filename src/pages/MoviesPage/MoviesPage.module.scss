@@ -1,0 +1,14 @@
+.commands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .filtersContainer {
+    width: 100%;
+  }
+}
+
+.cardContainer {
+  width: 300px;
+  margin: 0 auto;
+}

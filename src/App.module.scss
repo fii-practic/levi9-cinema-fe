@@ -1,0 +1,29 @@
+@import "./assets/themes/colors.scss";
+
+.brand {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-family: "Futura PT Bold";
+    font-size: 1.5rem;
+    color: $text;
+  }
+
+  .titleIcon {
+    height: 70%;
+    margin-right: 8px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 85%;
+  margin: 2rem auto 0;
+}

@@ -1,0 +1,17 @@
+@import "~antd/dist/antd.css";
+@import "./assets/themes/colors.scss";
+@import "./assets/themes/header.scss";
+@import "./assets/themes/fontFaces.scss";
+
+#root {
+  height: 100%;
+  outline: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  background-color: $secondary-100;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0px;
+}
