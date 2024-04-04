@@ -1,6 +1,6 @@
 {
-    "taskRoleArn": "arn:aws:iam::617129651895:role/levi9-cinema-fe-ecs-task-execution-role",
-    "executionRoleArn": "arn:aws:iam::617129651895:role/levi9-cinema-fe-ecs-task-role",
+    "taskRoleArn": "arn:aws:iam::MY_AWS_ACCOUNT_ID:role/levi9-cinema-fe-ecs-service-role",
+    "executionRoleArn": "arn:aws:iam::MY_AWS_ACCOUNT_ID:role/levi9-cinema-fe-ecs-task-role",
     "containerDefinitions": [
         {
             "name": "levi9-cinema-fe",
