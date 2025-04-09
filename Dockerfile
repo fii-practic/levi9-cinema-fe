@@ -1,4 +1,5 @@
-FROM public.ecr.aws/v5g1m8f0/node:17-alpine3.14 as build
+FROM public.ecr.aws/docker/library/node:17-alpine3.14 as build
+
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json ./
