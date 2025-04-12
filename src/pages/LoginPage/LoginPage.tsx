@@ -23,7 +23,7 @@ const LoginPage = () => {
     <div className={container}>
       <div className={title}>
         <img src={Levi9Logo} alt="logo" />
-        <h1>Cinema!</h1>
+        <h1>Cinema!!!</h1>
       </div>
       <div className={envSelection}>
         <p>Backend API environment: </p>
